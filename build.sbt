@@ -4,11 +4,11 @@ organization := "com.github.florinn"
 
 version := "0.2-SNAPSHOT"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.12.7"
 
 libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.7" % "test"
 
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
